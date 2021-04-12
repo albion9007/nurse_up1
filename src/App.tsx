@@ -8,10 +8,10 @@ import styles from "./App.module.css";
 import { useSelector, useDispatch } from "react-redux";
 import { selectUser, login, logout } from "./features/userSlice";
 import { auth } from "./firebase";
-import PlanTable from "./components/PlanTable";
-import PlanShow from "./components/PlanShow";
-import PlanCreate from "./components/PlanCreate";
-import Auth from "./components/Auth";
+import PlanTable from "./Components/PlanTable";
+import PlanShow from "./Components/PlanShow";
+import PlanCreate from "./Components/PlanCreate";
+import Auth from "./Components/Auth";
 
 // typescriptではあらかじめreactのfunctionalコンポーネントに対する型が決められているため、App: React.FCとする。
 const App: React.FC = () => {
